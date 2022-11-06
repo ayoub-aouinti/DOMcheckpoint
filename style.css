@@ -54,6 +54,7 @@ a {
   height: 100%;
 }
 
+
 /* HEADER */
 header {
   width: 100%;
@@ -290,6 +291,7 @@ main .model {
 
   cursor: pointer;
 }
+
 .products .item .item-container .add-to-wishlist {
   background-color: rgba(255, 21, 21, 0.7);
 
@@ -306,6 +308,10 @@ main .model {
   border-radius: 50%;
 
   cursor: pointer;
+}
+.products .item .item-container .nvcolor {
+  background-color: blue;
+
 }
 .products .item .item-container .add-to-cart img {
   width: 32px;

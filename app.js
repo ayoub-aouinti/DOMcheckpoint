@@ -20,7 +20,7 @@ function renderProdcuts() {
                             ${product.description}
                         </p>
                     </div>
-                    <div class="add-to-wishlist">
+                    <div class="add-to-wishlist ">
                         <img src="./icons/heart.png" alt="add to wish list">
                     </div>
                     <div class="add-to-cart" onclick="addToCart(${product.id})">
@@ -128,3 +128,11 @@ function changeNumberOfUnits(action, id) {
 
   updateCart();
 }
+
+	var elements = document.getElementsByClassName('add-to-wishlist'); // get all elements
+	for(let i of elements){
+    i.addEventListener("click", function(){
+      i.classList.toggle ("nvcolor")
+    })
+	}
+ 
